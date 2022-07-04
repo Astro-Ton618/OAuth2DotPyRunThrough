@@ -12,11 +12,18 @@ To install all dependencies on the root of the project type.
 make dep
 ```
 
+## Configuration
+
+Inside main.py add your CLIENT_ID and CLIENT_SECRET
+
+```python
+CLIENT_ID: str = ''
+CLIENT_SECRET: str = ''
+```
+
 ## Run
 
 To run the web server on the root of the project type.
-
-<div style='display: grid; grid-template-columns: repeat(3, 1fr); justify-items: center; align-items: center;'>
 
 ```bash
 make
@@ -27,8 +34,6 @@ or
 ```bash
 make run
 ```
-
-</div>
 
 ## Install dependencies and run
 
